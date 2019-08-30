@@ -7,6 +7,7 @@ channels:
     - jjhelmus
     - soumith
 dependencies:
+    - python==3.7.3
     - scipy
     - path.py
     - python-dateutil
@@ -26,7 +27,6 @@ dependencies:
     - mpi4py
     - pandas
     - pip:
-        - python==3.5.2
         - numpy==1.12.0
         - Pillow
         - atari-py
