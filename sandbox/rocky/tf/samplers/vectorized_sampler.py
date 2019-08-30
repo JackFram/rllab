@@ -95,6 +95,7 @@ class VectorizedSampler(BaseSampler):
                     ))
                     n_samples += len(running_paths[idx]["rewards"])
                     running_paths[idx] = None
+                    next_obses = self.vec_env.reset()
             process_time += time.time() - t
             pbar.inc(len(obses))
             obses = next_obses
