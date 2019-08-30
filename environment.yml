@@ -1,4 +1,3 @@
-
 name: rllab3
 channels:
     - https://conda.anaconda.org/kne 
@@ -8,7 +7,8 @@ channels:
     - jjhelmus
     - soumith
 dependencies:
-    - numpy==1.15.4
+    - python==3.5.2
+    - numpy==1.12.0
     - scipy
     - path.py
     - python-dateutil
@@ -28,7 +28,6 @@ dependencies:
     - mpi4py
     - pandas
     - pip:
-        - python==3.5.2
         - Pillow
         - atari-py
         - pyprind
